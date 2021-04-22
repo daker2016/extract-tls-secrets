@@ -5,6 +5,10 @@ phases:
     commands:
       - echo [INFO] Change timezone
       - export TZ="Asia/Tokyo"
+      - pwd
+      - ls -l /root/.m2/
+      - ls -l /root/.m2/repository/
+      - ls -l /root/.m2/repository/io/
   build:
     commands:
       - echo [INFO] Test started on `date`
