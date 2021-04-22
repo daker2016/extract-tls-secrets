@@ -1,0 +1,15 @@
+version: 0.2
+
+phase:
+  pre_build:
+    commands:
+      - echo [INFO] Change timezone
+      - export TZ="Asia/Tokyo"
+  build:
+    commands:
+      - echo [INFO] Test started on `date`
+      - mvn test
+
+cache:
+  paths:
+    - '/root/.m2/**/*'
