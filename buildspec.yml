@@ -6,7 +6,7 @@ phases:
       - echo [INFO] Change timezone
       - export TZ="Asia/Tokyo"
       - pwd
-      - ls -l /app/cache/
+      - ls -l /app/
       - ls -l /app/cache/
       - ls -l /app/cache/com/
       - ls -l /root/.m2/
